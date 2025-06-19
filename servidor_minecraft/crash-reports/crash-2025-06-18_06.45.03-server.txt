@@ -1,0 +1,56 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 6/18/25 6:45 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [0.13.1,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod apexguns (Apex 枪械工艺) requires [cgm@[0.13.1,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1027-azure
+	Java Version: 1.8.0_452, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1971507136 bytes (1880 MB) / 2427977728 bytes (2315 MB) up to 11453595648 bytes (10923 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 11 mods loaded, 11 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID         | Version                   | Source                            | Signature                                |
+	|:----- |:---------- |:------------------------- |:--------------------------------- |:---------------------------------------- |
+	| L     | minecraft  | 1.12.2                    | minecraft.jar                     | None                                     |
+	| L     | mcp        | 9.42                      | minecraft.jar                     | None                                     |
+	| L     | FML        | 8.0.99.99                 | forge-1.12.2-14.23.5.2860.jar     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge      | 14.23.5.2860              | forge-1.12.2-14.23.5.2860.jar     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | apexguns   | 0.1.2                     | ApexGunAddon-1.12.2-0.1.2.jar     | None                                     |
+	| L     | gravitygun | 7.1.0                     | GravityGun-1.12.2-7.1.0.jar       | None                                     |
+	| L     | ichunutil  | 7.2.2                     | iChunUtil-1.12.2-7.2.2.jar        | None                                     |
+	| L     | luckynuke  | 1.0.0                     | Lucky (1).jar                     | None                                     |
+	| L     | lucky      | 7.6.0                     | lucky-block-forge-1.12.2-2.0.jar  | None                                     |
+	| L     | hbm        | NTM-Extended-1.12.2-2.0.2 | NTM-Extended-1.12.2-2.0.2.jar     | None                                     |
+	| L     | voicechat  | 1.12.2-2.5.30             | voicechat-forge-1.12.2-2.5.30.jar | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
