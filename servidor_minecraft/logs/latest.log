@@ -137,3 +137,4 @@
 [03:37:43] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully authenticated player 821d3e5c-37f7-3dc2-bfed-5cf4637bf0d5
 [03:37:45] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully validated connection of player 821d3e5c-37f7-3dc2-bfed-5cf4637bf0d5
 [03:37:45] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Player Lauzun (821d3e5c-37f7-3dc2-bfed-5cf4637bf0d5) successfully connected to voice chat
+[03:50:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Unknown command. Try /help for a list of commands
